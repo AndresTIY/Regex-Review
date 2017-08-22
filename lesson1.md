@@ -11,3 +11,17 @@ Exercise 1: Matching Characters
 - Text: abcdefg
 
 (There's an input field where you type in the characters seen above. Once you type in 'abcdefg' they all get a green check
+
+## Lesson 1.5: The 123s
+
+Characters include normal letters, but digits as well. In fact, numbers 0-9 are also just chars and if you look at an ASCII table, they are listen sequentially.
+
+Over the various lessons, you will be introduced to a number of special metacharacters used in regular expressions that can be used to match a specific type of char. In this case, the character **\d** can be used in place of **any digit from 0-9**. The preceding slash distinguishes it from the simple **d** char and indicates that it is a metacharacter.
+
+Exercise: 1.5: Matching Digits
+- Match:
+- Text: abc123xyz
+- Text: define "123"
+- Text: var g = 123;
+
+(Input field just like exercise 1, they all match when you type in 123)
